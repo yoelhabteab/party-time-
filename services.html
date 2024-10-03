@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PARTY TIME</title>
+</head>
+
+<style>
+      .header{
+    background-color: rgb(96, 91, 121);
+    margin-top: -9px;
+    padding-bottom: 30px;
+    margin-left: -9px;
+   margin-right: -9px;
+   
+ }
+nav{
+    
+    
+     
+  display: inline-block;
+    margin-left: 450px;
+    font-size: large;
+    padding-top: 15px;
+
+}
+@media (max-width: 1024px) {
+    nav {
+        margin-left: 200px; 
+        font-size: x-large; 
+    }
+}
+
+@media (max-width: 768px) {
+    nav {
+        margin-left: 50px; 
+        font-size: large; 
+    }
+}
+@media (max-width: 480px) {
+    nav {
+        margin-left: 0; 
+        font-size: medium; 
+        padding-top: 10px; 
+        text-align: center; 
+        display: block; 
+    }
+}
+.logo{
+    display: inline; 
+    color: rgb(9, 9, 9);
+    padding-top: 15px;
+    font-family:'Times New Roman', Times, serif;
+    padding-left: 10px;
+    
+    
+}
+
+
+a{
+font-size: 30px;
+text-decoration: none;
+padding: 15px;
+color:black;
+
+}
+
+.backgroundimg{
+    background-image: url(images/vecteezy_futuristic-sci-fi-wallpaper-background_1416257.jpg);
+    margin-top: -2.7%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 600px;
+       margin-left: -9px;
+       margin-right: -9px;
+        
+}
+
+
+@media (max-width: 768px) {
+    .backgroundimg {
+        height: 400px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .backgroundimg {
+        height: 300px;
+    }
+}
+
+.ourservices{
+    font-size: xx-large;
+    padding-left: 40%;
+
+}
+.ourservicesp1{
+font-size: larger;
+padding-left: 20px;
+padding-right: 20px;
+
+}
+
+.wedding {
+  padding-top: 5%;
+}
+
+.weddingh1 {
+  padding-left: 35%;
+}
+
+.weddingimg {
+  height: 400px;
+  padding-left: 5%;
+}
+
+
+@media (max-width: 600px) {
+  .weddingimg {
+    height: 250px; 
+    padding-left: 10%; 
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  .weddingimg {
+    height: 350px;
+    padding-left: 7%;
+  }
+}
+
+@media (min-width: 1025px) {
+  .weddingimg {
+    height: 400px;
+    padding-left: 5%;
+  }
+}
+
+
+.themedeventdiv {
+  padding-top: 5%;
+  padding-left: 5%;
+}
+
+.themedeventh1 {
+  font-size: xx-large;
+  padding-left: 25%;
+}
+
+.themedeventimg {
+  height: 400px;
+  width: 400px;
+}
+
+
+.firstrow {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 20px; 
+}
+
+
+.fundraisingdiv {
+  padding-top: 5%;
+}
+
+.fundraisingh1 {
+  font-size: xx-large;
+  padding-left: 30%;
+}
+
+.fundraisingimg {
+  height: 400px;
+  width: 300px;
+  padding-left: 13%;
+}
+
+
+@media (max-width: 600px) {
+  .weddingh1, .themedeventh1, .fundraisingh1 {
+    padding-left: 10%;
+    font-size: large; 
+  }
+}
+
+
+@media (max-width: 600px) {
+  .themedeventimg, .fundraisingimg {
+    height: 250px;
+    width: 100%; 
+    padding-left: 0; 
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  .themedeventimg {
+    height: 350px;
+    width: 350px;
+  }
+
+  .fundraisingimg {
+    height: 350px;
+    width: 280px;
+  }
+}
+
+
+.packageslist{
+    display: flex;
+    padding-left: 70px;
+}
+.packagesh1{
+    padding-top: 5%;
+    padding-left: 40%;
+}
+
+.silver{
+    padding-left: 50px;
+}
+.gold{
+    padding-left: 50px;
+}
+
+
+footer {
+    background-color: #413d3d;
+    margin-left: -9px;
+    margin-right: -10px;
+    margin-bottom: -10px;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+
+}
+
+.footer-nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-nav a:hover {
+    text-decoration: underline;
+}
+
+.all-locations{
+    display: flex;
+    color: black;
+    background-color: #5e5b5b;
+    padding-left: 30%;
+    margin-left: -9px;
+    margin-right: -9px;
+
+}
+
+.our-location{
+    margin-left:35%;
+    font-family: "Jersey 20", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    font-size: 50px;
+    font-weight: 700;
+    color: hsl(60, 4%, 18%);
+    margin-top: 200px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+@media (max-width: 768px) {
+    .our-location {
+        margin-left: 20%;
+        font-size: 40px; 
+        margin-top: 150px; 
+    }
+}
+@media (max-width: 480px) {
+    .our-location {
+        margin-left: 20%; 
+        font-size: 30px; 
+        margin-top: 100px; 
+    }
+}
+ .header-location{
+    margin-right: 100px;
+    color: #fbf6f6;
+ }
+ @media (max-width: 768px) {
+    .header-location {
+        margin-right: 50px; 
+        font-size: 18px; 
+    }
+}
+ @media (max-width: 480px) {
+    .header-location {
+        margin-right: 20px; 
+        font-size: 16px; 
+        text-align: center; 
+    }
+}
+
+.servicesh1{
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    padding-left: 40%;
+    padding-top: 10%;
+}
+
+</style>
+<body>
+    
+    <header>
+        <div class="header">
+            <h1 class="logo"> PARTY TIME</h1>
+                    <nav>
+                      <a href="home.html">HOME</a>
+                      <a href="contact page.html">CONTACT</a>
+                      <a href="aboutus.html">ABOUT</a>
+                      <a href="services.html">SERVICES</a>
+                      <a href="gallary.html">GALLERY</a>
+            </div>
+                
+        </header>
+
+
+        <main>
+            <div class="backgroundimg"  >
+                <h1 class="servicesh1" >SERVICES</h1>
+            </div>
+            <div>
+                <h1 class="ourservices" >OUR SERVICES</h1>
+                <p class="ourservicesp1" >we offer a wide range of event planning solutions tailored to meet your needs. Whether you’re hosting a small gathering, a large corporate event, or an extravagant celebration, Party Time has you covered. Explore our party packages and specialized services designed to make every occasion memorable, stress-free, and perfectly organized. From venue selection to décor, entertainment, and catering, we handle every detail with care and creativity, ensuring your event is nothing short of spectacular. Let us bring your vision to life with our professional and personalized services.</p>
+            </div>
+            <div class="firstrow" > 
+    
+            <div class="wedding" >
+                <h1 class="weddingh1">wedding</h1>
+                <img class="weddingimg" src="images/wedding img.jpg" alt="wedding image">
+            </div>
+
+          <div class="themedeventdiv">
+            <h1 class="themedeventh1" >themed event</h1>
+           <img class="themedeventimg" src="images/themed event.jpg" alt="themed event image">
+          </div>   
+          
+          <div class="fundraisingdiv">
+            <h1 class="fundraisingh1" >fundraising</h1>
+           <img class="fundraisingimg" src="images/fundraising image.jpg" alt="fundraising image">
+          </div>       
+        </div>
+
+        <div class="firstrow" > 
+        <div class="wedding" >
+            <h1 class="weddingh1">DJ entertainment</h1>
+            <img class="weddingimg" src="images/dj image.jpg" alt="dj image">
+        </div>
+
+      <div class="themedeventdiv">
+        <h1 class="themedeventh1" >live band</h1>
+       <img class="themedeventimg" src="images/live band image.jpg" alt="live band image">
+      </div>   
+      
+      <div class="fundraisingdiv">
+        <h1 class="fundraisingh1" >printworks</h1>
+       <img class="fundraisingimg" src="images/invitation and printworks image.jpg" alt="invitaion and prinworks image">
+      </div>       
+    </div>
+  
+
+    <div>
+        <h1 class="packagesh1">PACKAGES OFFERED</h1>
+        
+    </div>
+
+    <div class="packageslist">
+        <div class="bronze">
+            <h2>Bronze</h2>
+            <li>room decorations - balloons, banners</li>
+            <li>table decoration - centrepieces, gifts</li>
+            <li>DJ entertainment</li>
+            <li>cold buffet</li>
+        </div>
+        <div class="silver">
+            <h2>Silver - all from bronze packages plus:</h2>
+            <li>inviation design and handling </li>
+            <li>party cost clear up</li>
+            <li>live band entertainment</li>
+            <li>cold buffet and soft drinks</li>
+        </div>
+        <div class="gold">
+             <h2>Gold - all from silver package plus:</h2>
+             <li>staff in attenance to ensure complete perfection</li>
+             <li>find guest accommodation, booking transport</li>
+             <li>hot and cold buffet and soft drinks</li>
+        </div>
+    </div>
+   
+        </main>
+
+
+
+        
+        <div  >
+            <header class="our-location" >OUR LOCATIONS</header>
+            </div>
+            <div class="all-locations">
+              <div  >
+                <h1 class="header-location" >MUYENGA</h1>
+                <p>Tank Hill Road </p>
+                <p>P.O BOX 454</p>
+            </div>
+             
+            <div>
+                <h1 class="header-location" >BUKOTO</h1>
+                <p>kira Road Next To Kabira Club</p>
+                <p>P.O BOX 768</p>
+            
+            </div>
+             
+            <div>
+                <h1 class="header-location" >BUNGA</h1>
+                <p>Ggaba Road Near Oryx </p>
+                <p>P.O BOX 234</p>
+            </div>
+            </div>
+            
+            
+            
+            
+                <footer>
+                    <div class="socialmedia" >
+                        <h2>social media</h2>
+                        <img  style="padding: 10px;" src="images/facebook.png" alt="">
+                        <img  style="padding: 10px;" src="images/whatsapp.png" alt="">
+                        <img  style="padding: 10px;" src="images/twitter.png" alt="">
+                        <img  style="padding: 10px;" src="images/instagram.png" alt="">
+                        <img  style="padding: 10px;" src="images/youtube.png" alt="">
+                    </div>
+                    <div class="footer-content">
+                        <p>&copy; 2024 YourWebsiteName. All rights reserved.</p>
+                        <ul class="footer-nav">
+                            <li><a href="home.html">Home</a></li>
+                            <li><a href="contact page.html">Contact</a></li>
+                            <li><a href="aboutus.html">About</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="gallary.html">gallery</a></li>
+                    
+                    </div>
+                </footer>
+</body>
+</html>

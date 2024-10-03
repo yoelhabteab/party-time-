@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<style>
+      .header{
+    background-color: rgb(165, 163, 163);
+    margin-top: -9px;
+    padding-bottom: 30px;
+    margin-left: -9px;
+   margin-right: -9px;
+   
+ }
+nav{
+    
+    
+    display: inline-block;
+    margin-left: 450px;
+    font-size: large;
+    padding-top: 15px;
+
+}
+@media (max-width: 1024px) {
+    nav {
+        margin-left: 200px; /* Reduce left margin for smaller screens */
+        font-size: x-large; /* Adjust font size for readability */
+    }
+}
+
+@media (max-width: 768px) {
+    nav {
+        margin-left: 50px; /* Further reduce left margin for tablets */
+        font-size: large; /* Reduce font size to fit content better */
+    }
+}
+@media (max-width: 480px) {
+    nav {
+        margin-left: 0; /* Center navigation on mobile devices */
+        font-size: medium; /* Further decrease font size for small screens */
+        padding-top: 10px; /* Adjust padding for a balanced layout */
+        text-align: center; /* Center align navigation items */
+        display: block; /* Stack items vertically on smaller devices */
+    }
+}
+.logo{
+    display: inline; 
+    color: rgb(9, 9, 9);
+    padding-top: 15px;
+    font-family:'Times New Roman', Times, serif;
+    padding-left: 10px;
+    
+    
+}
+
+
+a{
+font-size: 30px;
+text-decoration: none;
+padding: 15px;
+color:black;
+
+}
+
+.backgroundimg{
+    background-image: url(images/vecteezy_abstract-old-red-brick-wall-texture-for-background_8920858.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 600px;
+       margin-left: -9px;
+       margin-right: -9px;
+        margin-top: -45px;
+}
+
+
+@media (max-width: 768px) {
+    .backgroundimg {
+        height: 400px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .backgroundimg {
+        height: 400px; 
+    }
+}
+.abouth1{
+    font-size: 400%;
+    padding-left: 40%;
+    padding-top: 250px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+}
+.missiondiv{
+    margin-top: 100px;
+    display: flex;
+    background-image: url(images/mission\ and\ vision\ img.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+
+@media (max-width: 480px){
+    .missiondiv{
+        background-size: 500px 500px;
+
+}
+}
+
+
+
+.missionpara{
+    padding-left: 20%;
+    padding-right: 100px;
+    font-size:x-large;
+    padding-top: 800px;
+    color: black;
+    font-weight: bolder;
+}
+
+
+@media (max-width: 480px){
+    .missionpara{
+
+        font-size:small;
+}
+}
+@media (max-width: 780px){
+    .missionpara{ 
+font-size: 12px;
+margin-top: -60%;
+padding-left: -6%;
+
+    }
+}
+
+
+.whychooseush2{
+    padding-left: 45%;
+}
+
+@media (max-width: 480px){
+    .whychooseush2{
+        margin-left: -20%;
+}
+}
+@media (max-width: 780px){
+    .whychooseush2{ 
+        margin-left: -20%;
+    }
+
+}
+
+.threeimgs{
+    height: 250px;
+    padding-top: 10%;
+    padding-left: 5%;
+    display: flex;
+}
+
+
+.historyimg{
+height: 250px;
+padding-left: 10%;
+}
+@media (max-width: 480px){
+    .historyimg{
+    height: 200px;
+   
+}
+}
+@media (max-width: 780px){
+    .historyimg{
+    height: 130px;
+   
+}
+}
+
+.firstp1{
+    padding-left: 10%;
+    padding-right: 30%;
+   
+}
+
+.secimg{
+    
+   
+    height: 250px;
+    width: 300px;
+}
+@media (max-width: 480px){
+    .secimg{
+    height: 200px;
+    width: 200px;
+}
+}
+@media (max-width: 780px){
+    .secimg{
+    height: 150px;
+    width: 130px;
+}
+}
+.secp1{
+    padding-right: 15%;
+    
+}
+.thirdimg{
+    padding-left: 10%;
+    height: 248px;
+    width: 270px;
+}
+@media (max-width: 480px){
+    .thirdimg{
+    height: 200px;
+    width: 200px;
+}
+}
+@media (max-width: 780px){
+    .thirdimg{
+    height: 150px;
+    width: 130px;
+}
+}
+.thirdp1{
+    padding-left: 10%;
+    padding-right: 20%;
+
+}
+.threep1{
+    
+    display: flex;
+    padding-right: 0%;
+    font-size: large;
+}
+
+
+
+
+
+footer {
+    background-color: #413d3d;
+    margin-left: -9px;
+    margin-right: -10px;
+    margin-bottom: -10px;
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+
+}
+
+.footer-nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-nav a:hover {
+    text-decoration: underline;
+}
+
+.all-locations{
+    display: flex;
+    color: black;
+    background-color: #5e5b5b;
+    padding-left: 30%;
+    margin-left: -9px;
+    margin-right: -9px;
+
+}
+
+.our-location{
+    margin-left:35%;
+    font-family: "Jersey 20", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    font-size: 50px;
+    font-weight: 700;
+    color: hsl(60, 4%, 18%);
+    margin-top: 200px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+@media (max-width: 768px) {
+    .our-location {
+        margin-left: 20%; 
+        font-size: 40px; 
+        margin-top: 150px; 
+    }
+}
+@media (max-width: 480px) {
+    .our-location {
+        margin-left: 20%; 
+        font-size: 30px;
+        margin-top: 300px; 
+    }
+}
+ .header-location{
+    margin-right: 100px;
+    color: #fbf6f6;
+ }
+ @media (max-width: 768px) {
+    .header-location {
+        margin-right: 50px; 
+        font-size: 18px; 
+    }
+}
+ @media (max-width: 480px) {
+    .header-location {
+        margin-right: 20px; 
+        font-size: 16px; 
+        text-align: center; 
+    }
+}
+
+.whychooseus{
+    margin-right:10% ;
+    margin-left: 6%;
+    margin-top: 10%;
+    font-size: larger;
+   text-align:justify;
+}
+#text{
+    padding-left: 15%;
+    color: rgb(95, 85, 60);
+    font-family:cursive;
+    font-size: 60px;
+}
+</style>
+<body>
+    
+    <header>
+        <div class="header">
+            <h1 class="logo"> PARTY TIME</h1>
+                    <nav>
+                        <a href="home.html">HOME</a>
+                        <a href="contact page.html">CONTACT</a>
+                        <a href="aboutus.html">ABOUT</a>
+                        <a href="services.html">SERVICES</a>
+                        <a href="gallary.html">GALLERY</a>
+                 </nav>
+            </div>
+                
+        </header>
+
+        <main>
+            <main> 
+                <div class="backgroundimg"  >
+                    <h1 class="abouth1" >ABOUT US!</h1>
+                </div>
+                <h1 id="text">Starting...</h1>
+
+                <div class="autotext" >
+                  <label  for="speed"></label>
+                  <input  style="display: none;" type="number" name="speed" id="speed" value="1" min="1" max="10" step="1">
+                </div>
+            
+                <script src="script.js"></script>
+                <div class="missiondiv" >
+                   
+                    <p class="missionpara" >"At Party Time, our goal is to help people create memorable moments through amazing events. We believe that every celebration, big or small, deserves special attention. Our mission is to make sure every detail of your event is perfect, bringing your vision to life in a way that makes the day fun, exciting, and stress-free. We aim to be the go-to choice for anyone looking to throw a great party, always putting a smile on our clients’ faces by delivering the best experience possible."</p>
+                    
+                </div>
+                <div class="whychooseus">
+                    <h2  class="whychooseush2"  >Why Choose Us</h2>
+                    <p > Party Time is your ideal event partner, offering personalized service, meticulous attention to detail, and a team of experienced professionals who are passionate about bringing your vision to life. We excel in creating unique and creative concepts that make every celebration unforgettable, handling all logistics to provide a stress-free planning experience. With a commitment to reliability, trustworthiness, and a focus on exceeding expectations, we transform ordinary events into extraordinary experiences. Choose Party Time because your celebration deserves not just a plan, but a carefully crafted, memorable experience that you and your guests will cherish for years to come.</p>
+    
+                </div>
+             
+              <div class="threeimgs">
+                <div class="historydiv" > <img class="historyimg" src="images/history img.png" alt="history image">
+                    <p class="firstp1">"Founded in 2010, Party Time began with a passion for planning and a love for creativity. Over the years, we have grown from a small business into a trusted name in event planning, known for our attention to detail and personalized approach."</p>
+                </div> 
+
+                <div><img class="secimg" src="images/testimonial img.png" alt="testimonial image">
+                    <p class="secp1" > "Don’t just take our word for it! Our clients rave about the events we create. 'Party Time made our celebration unforgettable,' says one happy customer." </p>
+                </div>
+
+              <div><img class="thirdimg" src="images/team pic.png" alt="team image" >
+                <p class="thirdp1"> "Our talented team of event planners, designers, and coordinators work together to bring your dream event to life. Each member brings unique skills and passion, ensuring every detail is handled with care."</p>
+            </div>  
+                
+              </div>
+                
+              
+               
+                
+               
+            </div>
+        </main>
+
+
+        <div  >
+            <header class="our-location" >OUR LOCATIONS</header>
+            </div>
+            <div class="all-locations">
+                <div  >
+                    <h1 class="header-location" >MUYENGA</h1>
+                    <p>Tank Hill Road </p>
+                    <p>P.O BOX 454</p>
+                </div>
+                 
+                <div>
+                    <h1 class="header-location" >BUKOTO</h1>
+                    <p>kira Road Next To Kabira Club</p>
+                    <p>P.O BOX 768</p>
+                
+                </div>
+                 
+                <div>
+                    <h1 class="header-location" >BUNGA</h1>
+                    <p>Ggaba Road Near Oryx </p>
+                    <p>P.O BOX 234</p>
+                </div>
+                </div>
+                
+            
+            
+            
+                <footer>
+                    <div class="socialmedia" >
+                        <h2>social media</h2>
+                        <img  style="padding: 10px;" src="images/facebook.png" alt="">
+                        <img  style="padding: 10px;" src="images/whatsapp.png" alt="">
+                        <img  style="padding: 10px;" src="images/twitter.png" alt="">
+                        <img  style="padding: 10px;" src="images/instagram.png" alt="">
+                        <img  style="padding: 10px;" src="images/youtube.png" alt="">
+                    </div>
+                    <div class="footer-content">
+                        <p>&copy; 2024 YourWebsiteName. All rights reserved.</p>
+                        <ul class="footer-nav">
+                            <li><a href="home.html">Home</a></li>
+                            <li><a href="contact page.html">Contact</a></li>
+                            <li><a href="aboutus.html">About</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="gallary.html">gallery</a></li>
+                    
+                        </ul>
+                    </div>
+                </footer>
+                
+</body>
+</html>
